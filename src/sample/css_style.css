@@ -1,0 +1,103 @@
+
+/*css for the buttons on the main page
+ */
+#buttons{
+    -fx-border-color: darkgray;
+    -fx-background-radius: 50;
+    -fx-border-radius: 50;
+
+
+}
+/*additional css for the buttons on the main page to give the effect of a button click
+ */
+#buttons:hover {
+    -fx-border-color: darkgray;
+    -fx-background-radius: 50;
+    -fx-border-radius: 50;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);
+}
+/*css for main page label
+*/
+#labels{
+
+    -fx-background-color: darkgray;
+    -fx-font-size: 30;
+
+
+
+}
+/* css for the main top labels under class otherthan
+*the main
+ */
+#Button_Label{
+    -fx-text-fill: black;
+    -fx-background-color: floralwhite;
+    -fx-border-color: floralwhite;
+    -fx-background-radius:10;
+    -fx-border-radius:10;
+    -fx-font-size: 30;
+}
+
+
+/*textfield css for all textfields
+ */
+#Curve{
+    -fx-background-radius:50;
+    -fx-border-radius:50;
+    -fx-background-color: darkgray;
+
+
+
+}
+/*css file for buttons(all)
+ */
+#animation{
+    -fx-background-radius:50;
+    -fx-border-radius:50;
+
+}
+/*css file for buttons(all) when pressed
+ */
+#animation:pressed{
+    -fx-background-radius:1;
+    -fx-border-radius:1;
+
+
+
+}
+
+
+/*css for the help window
+ */
+#helpbtn {
+    -fx-background-color: floralwhite;
+    -fx-border-color: floralwhite;
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+}
+/*css for the keyboard
+ */
+
+#keyboard{
+    -fx-background-color: darkgray;
+    -fx-text-fill: white;
+    -fx-background-radius: 20;
+    -fx-border-radius: 20;
+    -fx-border-color: whitesmoke;
+
+
+
+}
+/*css for the keyboard when mouse hover's over
+ */
+
+#keyboard:hover{
+
+    -fx-background-color: darkgray;
+    -fx-text-fill: white;
+    -fx-background-radius: 22;
+    -fx-border-radius: 22;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);
+
+
+}
